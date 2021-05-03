@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Krub|Lato|Open+Sans');
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+html{font-size:100%;}
+
+body {
+    background:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    padding:0;
+    font-size:16px;
+    overflow-x:hidden;
+    font-weight:300;
+    background: #FFFFFF;
+}
+
+p{
+  font-size: 120%;
+  line-height:1.2;
+}
+
+h1{
+  font-size: 250%;
+}
+
+ul{
+  line-height:200%;
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  body {          
+      font-size:14px;          
+  }
+
+  p{
+    font-size: 100%;
+    line-height:1.2;
+  }
+
+  h1{
+    font-size: 140%;
+  }
+
+  ul{
+    line-height:160%;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  body {          
+      font-size:16px;          
+  }
+
+  p{
+    font-size: 120%;
+    line-height:1.2;
+  }
+
+  h1{
+    font-size: 200%;
+  }
+
+  ul{
+    line-height:180%;
+  }
+}
+
+@font-face{
+	font-family:clockBold;
+	src : url(../fonts/TTF/BebasNeueBold.ttf);
+}
+
+@font-face{
+  font-family:clockBook;
+  src : url(../fonts/TTF/BebasNeueBook.ttf);
+}
+@font-face{
+  font-family:clockLight;
+  src : url(../fonts/TTF/BebasNeueLight.ttf);
+}
+
+@font-face{
+  font-family:clockRegular;
+  src : url(../fonts/TTF/BebasNeueRegular.ttf);
+}
+
+@font-face{
+  font-family:clockThin;
+  src : url(../fonts/TTF/BebasNeueThin.ttf);
+}
+
+.topHeader{
+    min-height: 3vh;
+    line-height: 3vh;
+    text-align: center;
+    background: #000000;
+    border-bottom: 0.0625em solid #FFFFFF;
+    color:#bdafaf;
+}
+.TopBarContent{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding:0.4em;
+}
+
+.topHeader a{
+  color:#fff;
+}
+
+.TopBarContent .fa-envelope-o{
+  color:#fff;
+  margin-right: 0.2em;
+}
+
+/*.container{
+  border:1px solid #dddddd;
+}*/
+
+.blockInline{
+  display: inline-block;
+  margin-right: 3em;
+}
+
+/*==================================================
+=            Mega Menu                             =
+==================================================*/
+
+/*Hide the Scrollbar */
+
+::-webkit-scrollbar {
+display: none;
+}
+
+.container_body{
+  width:80%;
+  margin-top: 0.5em;
+}
+
+/* MEGA MENU */
+.dropdown-menu{
+  left:-1em;
+}
+.navbar-default{
+  box-shadow: 0.3125em 0.625em #888888;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top:1.25em;
+    border-top-left-radius:0.25em;
+    border-top-right-radius:0.25em;
+    height:30em;
+}
+.navbar-default .navbar-nav>li>a {
+    width:15em;
+    font-weight:bold;    
+}
+.mega-dropdown {
+  position: static !important;
+  width:100%;
+}
+.mega-dropdown-menu {
+    padding: 1.25em 0em;
+    width: 102%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu:before {
+    content: "";
+    border-bottom: 0.9375em solid #fff;
+    border-right: 1.0625em solid transparent;
+    border-left: 1.0625em solid transparent;
+    position: absolute;
+    top: -0.9375em;
+    left: 12.875em;
+    z-index: 10;
+}
+.mega-dropdown-menu:after {
+    content: "";
+    border-bottom: 1.0625em solid #ccc;
+    border-right: 1.1875em solid transparent;
+    border-left: 1.1875em solid transparent;
+    position: absolute;
+    top: -1.0625em;
+    left: 12.50em;
+    z-index: 8;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;  
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 0.1875em 1.25em;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #074800;
+  white-space: normal;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+  background-color: #f5f5f5;
+}
+.mega-dropdown-menu .dropdown-header {
+  color: #428bca;
+  font-size: 1.125em;
+  font-weight:bold;
+}
+.mega-dropdown-menu form {
+    margin:0.1875em 1.25em;
+}
+.mega-dropdown-menu .form-group {
+    margin-bottom: 0.1875em;
+}
+.liFixedHeight{
+  height: 28em;
+  overflow: scroll;
+  background-color:#f5f3fb;
+  border: 10px solid white;
+  border-radius: 37px;
+  padding-top: 1em;  
+}
+span.glyphicon.glyphicon-chevron-down{
+  top:0.3125em;
+}
+
+.dropdown-carousel-inner .top-image{
+  width: 23.75em;
+  height: 14em;
+  overflow: scroll;
+}
+
+.dropdown-carousel-inner .top-image img{
+  width:100%;
+  height: auto;
+}
+
+.dropdown-carousel-inner .news-title{
+  width: 23.75em;
+  height: 4.6875em;
+  overflow: scroll;
+  padding:0.2em;
+  margin-top:0.2em;
+  font-weight: bold;
+  border-bottom:0.1em solid #dddddd;
+}
+
+.dropdown-carousel-inner .news-buttons{
+  margin-top: 0.5em;
+}
