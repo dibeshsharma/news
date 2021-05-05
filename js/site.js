@@ -42,7 +42,7 @@ $( document ).ready(function() {
 
   $name = "";
   $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
@@ -111,7 +111,7 @@ $( document ).ready(function() {
 
     // Dropdown Menu
     $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?q=trump&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?q=trump&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
@@ -137,7 +137,7 @@ $( document ).ready(function() {
     $url = '';
     
     $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?sources=cnbc&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?sources=cnbc&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
@@ -169,7 +169,7 @@ $( document ).ready(function() {
     
     // BBC    
     $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
@@ -198,7 +198,7 @@ $( document ).ready(function() {
 
     //ABC
     $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
@@ -226,7 +226,7 @@ $( document ).ready(function() {
     // Side News End 
     // second news
     $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?sources=cbc-news&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?sources=cbc-news&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
@@ -247,7 +247,7 @@ $( document ).ready(function() {
 
     //Third news
     $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
@@ -282,7 +282,7 @@ $( document ).ready(function() {
     // ABC NEWS AU
     $('.panel_news_abc_au').one('click',function(){
       $.ajax({
-        url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+        url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=APIKEY",
         method :"GET",
         data:{name : $name},
         dataType:"JSON",
@@ -305,7 +305,7 @@ $( document ).ready(function() {
     // ABC NEWS
     $('.panel_news_abc').one('click',function(){
       $.ajax({
-        url: "https://newsapi.org/v2/top-headlines?sources=abc-news&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+        url: "https://newsapi.org/v2/top-headlines?sources=abc-news&apiKey=APIKEY",
         method :"GET",
         data:{name : $name},
         dataType:"JSON",
@@ -328,7 +328,7 @@ $( document ).ready(function() {
     // CNN
     $('.panel_news_cnn').one('click',function(){
       $.ajax({
-        url: "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+        url: "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=APIKEY",
         method :"GET",
         data:{name : $name},
         dataType:"JSON",
@@ -351,7 +351,7 @@ $( document ).ready(function() {
     //BBC
     $('.panel_news_bbc').one('click',function(){
       $.ajax({
-        url: "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+        url: "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=APIKEY",
         method :"GET",
         data:{name : $name},
         dataType:"JSON",
@@ -374,7 +374,7 @@ $( document ).ready(function() {
     //Al Jazeera English
     $('.panel_news_al_jazerra').one('click',function(){
       $.ajax({
-        url: "https://newsapi.org/v2/top-headlines?sources=al-jazeera-english&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+        url: "https://newsapi.org/v2/top-headlines?sources=al-jazeera-english&apiKey=APIKEY",
         method :"GET",
         data:{name : $name},
         dataType:"JSON",
@@ -396,7 +396,7 @@ $( document ).ready(function() {
 
   // Section Top Stories
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?country=us&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?country=us&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
@@ -413,7 +413,7 @@ $( document ).ready(function() {
 
   // National News
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?sources=abc-news-au&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
@@ -448,7 +448,7 @@ $( document ).ready(function() {
 
   // Section Sports
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?sources=bbc-sport&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?sources=bbc-sport&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
@@ -464,7 +464,7 @@ $( document ).ready(function() {
 
   // Section Health
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?sources=medical-news-today&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?sources=medical-news-today&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
@@ -484,7 +484,7 @@ $( document ).ready(function() {
 
   // Section Business
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?sources=business-insider&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?sources=business-insider&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
@@ -500,7 +500,7 @@ $( document ).ready(function() {
 
   // Section Science
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
@@ -519,7 +519,7 @@ $( document ).ready(function() {
 
   // Section Entertainment
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
@@ -535,7 +535,7 @@ $( document ).ready(function() {
 
   // Section Technology
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
