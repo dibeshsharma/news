@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
 $name = "";
 $.ajax({
-      url: "https://newsapi.org/v2/top-headlines?sources=cnbc&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+      url: "https://newsapi.org/v2/top-headlines?sources=cnbc&apiKey=APIKEY",
       method :"GET",
       data:{name : $name},
       dataType:"JSON",
