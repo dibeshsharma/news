@@ -432,7 +432,7 @@ $( document ).ready(function() {
 
   // Section World
   $.ajax({
-    url: "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=cc80f9d0c61c47cb9f853d76ae493b87",
+    url: "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=APIKEY",
     method :"GET",
     data:{name : $name},
     dataType:"JSON",
